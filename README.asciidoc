@@ -43,7 +43,7 @@ http://www.gnu.org/copyleft/gpl.html[GNU General Public License] for more detail
 
 == Install NCSD
 
-
+==== Linux and MacOS
 
 Download the archive and expand it.
 
@@ -75,14 +75,9 @@ image::ncsd_gui.png[NCSD GUI]
 
 
 
-==== Linux
+==== Linux and MacOS
 
 Launch the *ncsd.py* Python script.
-
-
-==== Mac OS X
-
-Launch the *ncsd* file.
 
 
 
@@ -109,9 +104,9 @@ When the analysis will be done, a message box will appear.
 
 === Command line use
 
-==== Linux and Mac OS X
+==== Linux and Mac OS
 
-NCSD is written in Python. Check that your Python version is < v.3
+NCSD is written in Python 3. Check that your Python version is >= v.3
 
 From a terminal launch the module (*./module_name.py*) with all required parameters (see module section for details).
 If *module_name.py* is not executable, launch the *python module_name.py* command.
@@ -121,7 +116,7 @@ If *module_name.py* is not executable, launch the *python module_name.py* comman
 ==== Microsoft-Windows(R)
 
 
-IMPORTANT: http://www.python.org[Python] v.2.6 or greater (but not v.3) must be installed on your system.
+IMPORTANT: http://www.python.org[Python] v.3 or greater must be installed on your system.
 
 From "cmd" launch the module (*module_name.py*) with all required parameters (see module section for details).
 
