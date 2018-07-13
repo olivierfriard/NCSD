@@ -44,34 +44,10 @@ http://www.gnu.org/copyleft/gpl.html[GNU General Public License] for more detail
 == Install NCSD
 
 
-=== Install NCSD for a command line usage (all platforms)
 
 Download the archive and expand it.
 
-NCSD is written in Python 3. Check the Python version of your Linux distribution.
-
-
-=== Install the NCSD Graphic User Interface (GUI) 
-
-
-==== Linux
-
-Install the source package (see "Install NCSD for a command line usage").
- 
-If you want to use the GUI, you must install the *python3-pyqt5* package.
-
-
-==== Mac OS X
-
-
-If you want to use the GUI only, download the DMG archive corresponding to your system and mount it:
-
-64-bit;;
-    http://www.personalweb.unito.it/olivier.friard/ncsd/ncsd-7.64bit.dmg[ncsd-7.64bit.dmg] (about 15 Mb)
-
-32-bit;;
-    http://www.personalweb.unito.it/olivier.friard/ncsd/ncsd-7.32bit.dmg[ncsd-7.32bit.dmg] (about 30 Mb)
-
+NCSD is written in Python 3 and requires the PyQt5 module. 
 
 
 ==== Microsoft-Windows(R)
@@ -82,11 +58,9 @@ Download the following auto-install archive corresponding to your system and lau
 This installation do not require administrator privileges.
 The program will be installed in the *Application Data* directory of the current user.
 
-Windows 32-bit;;
-    http://www.personalweb.unito.it/olivier.friard/ncsd/ncsd_setup_win32.exe[ncsd_setup_win32.exe] (about 7 Mb)
 
-Windows 64-bit;;
-    http://www.personalweb.unito.it/olivier.friard/ncsd/ncsd_setup_win64.exe[ncsd_setup_win64.exe] (about 9 Mb)
+https://github.com/olivierfriard/NCSD/releases[NCSD releases]
+
 
 
 
@@ -104,9 +78,6 @@ image::ncsd_gui.png[NCSD GUI]
 ==== Linux
 
 Launch the *ncsd.py* Python script.
-
-If you want to use the GUI, you must install the *python-pyqt5* package.
-
 
 
 ==== Mac OS X
