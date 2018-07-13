@@ -46,11 +46,9 @@ http://www.gnu.org/copyleft/gpl.html[GNU General Public License] for more detail
 
 === Install NCSD for a command line usage (all platforms)
 
-Download the following archive and expand it:
+Download the archive and expand it.
 
-http://www.personalweb.unito.it/olivier.friard/ncsd/ncsd-7.src.tar.bz2[ncsd-7.src.tar.bz2] (about 15 Kb)
-
-NCSD is written in Python (v 2.6 and greater but < v.3). Check the Python version of your Linux distribution.
+NCSD is written in Python 3. Check the Python version of your Linux distribution.
 
 
 === Install the NCSD Graphic User Interface (GUI) 
@@ -60,7 +58,7 @@ NCSD is written in Python (v 2.6 and greater but < v.3). Check the Python versio
 
 Install the source package (see "Install NCSD for a command line usage").
  
-If you want to use the GUI, you must install the *python-pyside* package.
+If you want to use the GUI, you must install the *python3-pyqt5* package.
 
 
 ==== Mac OS X
@@ -91,25 +89,7 @@ Windows 64-bit;;
     http://www.personalweb.unito.it/olivier.friard/ncsd/ncsd_setup_win64.exe[ncsd_setup_win64.exe] (about 9 Mb)
 
 
-[NOTE]
-===============================
-How to determine if your Microsoft-Windows operating system is 32-bit or 64-bit:
 
-Open the *Start menu*, and click on *Programs -> Accessories -> System Tools -> System Information*
-
-Look in the *System Summary*
-
-The *System Information* tool will display detailed information about your Windows operating system. Once opened it will show the "System Summary" – it’s an overview of your computer and operating system.
-
-On the right hand side of the window you will see a list of items. Look for the item called "System Type".
-
-The value of this item will tell you whether your computer is 32-bit or 64-bit:
-
-* x86-based PC: It’s a 32-bit computer.
-* x64-based PC: It’s a 64-bit computer.
-
-See http://support.microsoft.com/kb/827218[Microsoft site] for more details.
-===============================
 
 == How to use
 
@@ -125,7 +105,7 @@ image::ncsd_gui.png[NCSD GUI]
 
 Launch the *ncsd.py* Python script.
 
-If you want to use the GUI, you must install the *python-pyqt4* package.
+If you want to use the GUI, you must install the *python-pyqt5* package.
 
 
 
