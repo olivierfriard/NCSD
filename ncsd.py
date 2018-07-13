@@ -308,7 +308,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         Distance analysis version v. %s
         <p>Copyright &copy; 2010-2011 Olivier Friard - Universit&agrave; di Torino.<br>
         All rights reserved.
-        <p>Python %s - Qt %s - PySide %s on %s""" % (__version__, markers_version, cellbodies_version, distance_version, platform.python_version(), PySide.QtCore.__version__, PySide.__version__, platform.system()))
+        <p>Python %s - PyQt %s on %s""" % (__version__, markers_version, cellbodies_version, distance_version, platform.python_version(), PYQT_VERSION_STR, platform.system()))
 
 
     def quit(self):
