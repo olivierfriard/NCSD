@@ -2,8 +2,10 @@ Neurolucida Companion for Spatial Distribution analysis (NCSD)
 ==============================================================
 :Author: Olivier_Friard,_Serena_Bovetti,_Simona_Gribaudo_and_Silvia_De_Marchis_(Università_degli_Studi_di_Torino)
 :Email:     olivier.friard@unito.it
-:v1.0, June 2011:
+:v7.0, September 2011:
 
+
+Authors: Olivier Friard, Serena Bovetti, Simona Gribaudo and Silvia De Marchis (Università_degli_Studi_di_Torino)
 
 ////
 a2x --icons-dir=. --icons -f xhtml index.txt
